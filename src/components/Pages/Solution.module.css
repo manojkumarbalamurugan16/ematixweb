@@ -1,0 +1,166 @@
+/* Container */
+.solutionsContainer {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fc;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 100px;
+  color: #333;
+}
+
+/* Title and Highlight */
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #0066ff;
+}
+
+.subtext {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+/* Cards Container */
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 cards per row by default */
+  gap: 2rem;
+  padding: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: auto;
+  width: auto;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  color: #0044cc;
+  margin-bottom: 0.5rem;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.cardimage {
+  height: 200px;
+  width: 100%; /* Ensures image scales with the card width */
+  object-fit: cover; /* Maintain image aspect ratio */
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtext {
+    font-size: 1rem;
+  }
+
+  .cardContainer {
+    grid-template-columns: 1fr; /* 1 card per row for tablets */
+    gap: 1.5rem;
+    padding: 10px;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .cardTitle {
+    font-size: 1.3rem;
+  }
+
+  .cardDescription {
+    font-size: 0.9rem;
+  }
+
+  .cardimage {
+    height: 180px; /* Reduce image height slightly */
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtext {
+    font-size: 0.9rem;
+  }
+
+  .cardContainer {
+    grid-template-columns: 1fr; /* Maintain 1 card per row for smaller screens */
+    gap: 1rem;
+    padding: 10px;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .cardTitle {
+    font-size: 1.2rem;
+  }
+
+  .cardDescription {
+    font-size: 0.85rem;
+  }
+
+  .cardimage {
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtext {
+    font-size: 0.8rem;
+  }
+
+  .cardContainer {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 5px;
+  }
+
+  .card {
+    padding: 0.8rem;
+  }
+
+  .cardTitle {
+    font-size: 1rem;
+  }
+
+  .cardDescription {
+    font-size: 0.75rem;
+  }
+
+  .cardimage {
+    height: 140px;
+  }
+}

@@ -1,0 +1,185 @@
+.train {
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+.train1 {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  padding: 50px 20px;
+  background-color: #27acd0;
+  margin-bottom: 30px;
+}
+
+.train1 h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.train1 p {
+  font-size: 1rem;
+  color: #f9f9f9;
+}
+
+/* Card Container */
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Card Link */
+.cardLink {
+  text-decoration: none;
+}
+
+/* Card */
+.card {
+  background-color: #27acd0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* Card Image */
+.cardImage {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Card Title */
+.card h2 {
+  color: #fcfcfc;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+/* Card Text */
+.card p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #090808;
+  white-space: normal;
+  /* display: inline-block; */
+}
+
+/* Card Hover */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card:active {
+  transform: translateY(2px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .cardsContainer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .train1 h1 {
+    font-size: 1.8rem;
+  }
+
+  .train1 p {
+    font-size: 0.9rem;
+  }
+
+  .card h2 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .train1 {
+    padding: 20px 10px;
+  }
+
+  .train1 h1 {
+    font-size: 1.5rem;
+  }
+
+  .train1 p {
+    font-size: 0.8rem;
+  }
+
+  .cardsContainer {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .card {
+    padding: 15px;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .card h2 {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 0.8rem;
+  }
+
+  .cardImage {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .train1 h1 {
+    font-size: 1.3rem;
+  }
+
+  .train1 p {
+    font-size: 0.75rem;
+  }
+
+  .cardsContainer {
+    padding: 5px;
+  }
+
+  .card {
+    padding: 10px;
+    max-width: auto;
+    margin: 0 auto;
+  }
+
+  .card h2 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 0.7rem;
+  }
+
+  .cardImage {
+    max-width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .train1 {
+    padding: 20px 10px;
+    max-width: 100%;
+  }
+  
+}

@@ -1,0 +1,98 @@
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(0deg, #fafcfb, #085feb);
+    margin-top: 70px;
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #fafcfb;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.4rem;
+    color: #100f0f;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+  }
+  
+  .imageContainer {
+    max-width: 400px;
+  }
+  
+  .supportImage {
+    width: 100%;
+    border-radius: 50px;
+    height: auto;
+  }
+  
+  .textContainer {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .textContainer h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .textContainer ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 540;
+    color: #333;
+  }
+  
+  .textContainer li {
+    margin: 8px 0;
+  }
+  
+  .contact {
+    margin-top: 50px;
+  }
+  
+  .contact h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .contactButton {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactButton:hover {
+    background-color: #1ebe5a;
+  }
+  

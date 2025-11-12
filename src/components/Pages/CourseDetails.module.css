@@ -1,0 +1,204 @@
+.details {
+    /* padding: 20px; */
+    margin-top: 80px;
+    /* background-color: aqua; */
+    font-family: Arial, sans-serif;
+  }
+ 
+  
+  .title {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 80px;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Left Column: Curriculum */
+  .curriculum {
+    flex: 1;
+    max-width: 50%;
+    /* border: 1px solid #ddd; */
+    padding: 20px;
+    border-radius: 5px;
+    /* background-color: #f9f9f9; */
+  }
+  
+  .curriculum h2 {
+    margin-bottom: 20px;
+  }
+  
+ 
+ 
+  
+  /* Right Column: Details */
+  .detailsCard {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    /* background-color: #f9f9f9; */
+    text-align: center;
+  }
+  
+  .courseImage {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+  }
+  
+  .detailsContent p {
+    margin: 10px 0;
+    line-height: 30px;
+
+  }
+  .module {
+    margin-bottom: 20px; /* Add space between each module */
+  }
+  
+  .moduleHeader {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .moduleContent {
+    padding-left: 20px;
+    list-style-type: disc; /* Make it look like bullet points */
+    margin-top: 10px;
+    display: block; /* Make sure it's visible */
+  }
+  
+  .moduleContent li {
+    padding: 5px 0;
+  }
+  
+  .moduleContent.hidden {
+    display: none; /* If you want to hide topics initially */
+  }
+  
+  /* Optional: Styling for active module (optional for effects) */
+  .moduleHeader:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .moduleHeader span {
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .contentWrapper {
+      flex-direction:column-reverse;
+    }
+  
+    .curriculum,
+    .detailsCard {
+      max-width: 100%;
+    }
+    .courseImage{
+      height: 200px;
+      width: 200px;
+    }
+
+    .title{
+      font-size: 2rem;
+    }
+    .detailsContent p{
+      font-size: 1rem;
+    }
+
+  }
+  
+  
+  .readMore{
+    background-color: #1455e3;
+    padding: 10px;
+    /* margin-right: 10px; */
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fdfcfc;
+  }
+  
+  .readMore:hover {
+    background-color: #0056b3;
+  }
+  .moduleContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .moduleContent.show {
+    max-height: 500px; /* Adjust as needed based on content */
+  }
+  
+  .moduleHeader {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+  }
+  
+  .moduleHeader:focus {
+    outline: none;
+  }
+  
+  .toggleIcon {
+    font-size: 1.2rem;
+  }
+  
+  .moduleContent ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+  }
+  
+  .moduleContent li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .readMore{
+    background-color: #1455e3;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #f6f1f1;
+  }
+  
+  .readMore:hover {
+    background-color: #0056b3;
+  }
+  .applyButton {
+    background-color: #1455e3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .applyButton:hover {
+    background-color: #1d8eb4;
+  }
+  

@@ -1,0 +1,133 @@
+/* General container styling */
+.container {
+    max-width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 500px; */
+    /* margin: 050px auto; */
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading styling */
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form group container */
+  .inputGroup {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Input styling */
+  .input,
+  .textarea,
+  .select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    background-color: #fff;
+  }
+  
+  /* Textarea specific styling */
+  .textarea {
+    min-height: 80px;
+    resize: vertical;
+  }
+  
+  /* Input and textarea focus effect */
+  .input:focus,
+  .textarea:focus,
+  .select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Dropdown select styling */
+  .select {
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  /* Submit button styling */
+  .submitButton {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .container {
+        /* max-width: 90%; */
+        margin-top: 50px;
+        padding: 120px;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .input,
+    .textarea,
+    .select {
+        font-size: 0.9rem;
+    }
+
+    .submitButton {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin-top: 30px;
+        padding: 15px;
+    }
+
+    .heading {
+        font-size: 1.2rem;
+    }
+
+    .input,
+    .textarea,
+    .select {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    .submitButton {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+.footer {
+  /* position: fixed; */
+  background-color:black;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  }
+  @media (max-width: 600px) {
+    .footer p {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      /* padding: 15px;   Increase padding for better spacing */
+    }
+  }
+  
+  /* Tablet View (between 601px and 768px) */
+  @media (min-width: 601px) and (max-width: 768px) {
+    .footer p{
+      font-size: 16px; /* Keep it slightly bigger for tablets */
+      /* padding: 12px; */
+    }
+  }
+  
+  /* Larger Screens */
+  @media (min-width: 769px) {
+    .footer p{
+      font-size: 15px; /* Default size for larger screens */
+    }
+  }

@@ -1,0 +1,272 @@
+/* Container */
+.mentorshipContainer {
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 4px;
+  background-color: #f9f9f9;
+}
+
+/* Header Section */
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #0066ff;
+}
+
+.subtext {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.findMentor {
+  background-color: #2827cc;
+}
+
+.findMentor:hover {
+  background-color: #1f1b99;
+}
+
+.becomeMentor {
+  background-color: #ff8700;
+}
+
+.becomeMentor:hover {
+  background-color: #d96c00;
+}
+
+.mentorLogin {
+  background-color: #4b4fc6;
+}
+
+.mentorLogin:hover {
+  background-color: #3a3e99;
+}
+
+/* Image Section */
+.imageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;  
+  margin: 3rem 0;
+}
+
+.mainImageWrapper {
+  position: relative;
+}
+
+.mainImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #ccc;
+}
+
+.badge {
+  position: absolute;
+  bottom: -40px;
+  left: 40px;
+  background-color: #ffb800;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.roundImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.subImage span {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+/* Footer Section */
+.footer {
+  margin-top: 3rem;
+}
+
+.footer h2 {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.footer h3 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.footerText {
+  font-size: 1.1rem;
+  color: #777;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 1024px) {
+  /* Adjust header font size */
+  .header h1 {
+      font-size: 2.5rem;
+  }
+
+  /* Adjust button font size */
+  .button {
+      font-size: 0.9rem;
+  }
+
+  /* Adjust button group for better alignment */
+  .buttonGroup {
+      flex-direction: column;
+      gap: 0.5rem;
+  }
+
+  /* Image size adjustments */
+  .mainImage {
+      width: 150px;
+      height: 150px;
+  }
+
+  .badge {
+      bottom: -30px;
+      left: 30px;
+  }
+
+  .roundImage {
+      width: 40px;
+      height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjust header font size */
+  .header h1 {
+      font-size: 2rem;
+  }
+
+  /* Adjust subtext font size */
+  .subtext {
+      font-size: 1rem;
+  }
+
+  /* Adjust button sizes */
+  .button {
+      padding: 0.7rem 1.2rem;
+      font-size: 0.9rem;
+  }
+
+  /* Stack buttons vertically */
+  .buttonGroup {
+      flex-direction: column;
+      gap: 1rem;
+  }
+
+  /* Adjust image size */
+  .mainImage {
+      width: 120px;
+      height: 120px;
+  }
+
+  .badge {
+      bottom: -20px;
+      left: 25px;
+  }
+
+  .roundImage {
+      width: 35px;
+      height: 35px;
+  }
+
+  /* Adjust footer text */
+  .footer h2 {
+      font-size: 1.2rem;
+  }
+
+  .footer h3 {
+      font-size: 1.5rem;
+  }
+
+  .footerText {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust header font size */
+  .header h1 {
+      font-size: 1.5rem;
+  }
+
+  /* Adjust subtext font size */
+  .subtext {
+      font-size: 0.9rem;
+  }
+
+  /* Adjust button sizes */
+  .button {
+      padding: 0.6rem 1rem;
+      font-size: 0.8rem;
+  }
+
+  /* Stack buttons vertically */
+  .buttonGroup {
+      flex-direction: column;
+      gap: 1rem;
+  }
+
+  /* Adjust image size */
+  .mainImage {
+      width: 100px;
+      height: 100px;
+  }
+
+  .badge {
+      bottom: -15px;
+      left: 20px;
+  }
+
+  .roundImage {
+      width: 30px;
+      height: 30px;
+  }
+
+  /* Adjust footer text */
+  .footer h2 {
+      font-size: 1rem;
+  }
+
+  .footer h3 {
+      font-size: 1.2rem;
+  }
+
+  .footerText {
+      font-size: 0.9rem;
+  }
+}

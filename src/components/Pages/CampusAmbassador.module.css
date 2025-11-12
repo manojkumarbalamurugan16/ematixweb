@@ -1,0 +1,117 @@
+.wrapper {
+    background-color: #0dcdfd; /* Your preferred background color */
+    padding: 20px; /* Add padding to create spacing around the container */
+    min-height: 100vh;
+    margin-top: 70px; /* Ensures the background color covers the full height */
+  }
+.container {
+    max-width: 700px;
+   
+    /* margin-left: 400px; */
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px,solid;
+    background-color:rgb(234, 239, 238);
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    font-size: 2em;
+    color: #1034ec;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    margin-bottom: 20px;
+  }
+  
+  .details h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+  }
+  
+  .details ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #34495e;
+  }
+  
+  .formContainer {
+    margin-top: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+      
+  }
+  
+  .label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  
+  .input,
+  .textarea {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .submitButton {
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #3498db;
+  }
+  
+  .responseMessage {
+    margin-top: 10px;
+    font-size: 1em;
+    color: green;
+    text-align: center;
+  }
+  
+  .contact {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+  }
+  
+  .contact p {
+    font-size: 1em;
+    color: #34495e;
+  }
+  

@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: auto; /* Allow height to adjust for content */
+  margin-top: 100px; /* Reduced top margin for smaller screens */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically on mobile */
+  align-items: center; /* Center align for smaller screens */
+  padding: 20px; /* Added padding for better spacing */
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  font-size: 2rem; /* Reduced font size for mobile */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.2rem; /* Reduced font size for mobile */
+  margin-bottom: 20px;
+  color: #100f0f;
+  font-weight: 400;
+  text-align: center; /* Center text on mobile */
+}
+
+.contactInfo {
+  margin-bottom: 20px;
+  text-align: center; /* Center align contact information */
+}
+
+.contactInfo p {
+  margin: 5px 0;
+  font-size: 0.9rem; /* Reduced font size for mobile */
+}
+
+.form {
+  width: 100%; /* Full width on mobile */
+  max-width: 400px; /* Keep form width manageable */
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.textarea {
+  height: 100px;
+  resize: none;
+}
+
+.submitButton {
+  width: 100%; /* Full width button on mobile */
+  padding: 12px; /* Adjusted padding for better touch area */
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #555;
+}
+
+.whatsappButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsappButton img {
+  width: 50px; /* Reduced size for mobile */
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .container {
+    margin-top: 50px; /* Reduced top margin */
+    padding: 50px; /* Adjusted padding for smaller devices */
+  }
+
+  .heading {
+    font-size: 1.8rem; /* Slightly smaller font */
+  }
+
+  .description {
+    font-size: 1rem; /* Reduced font size for compact layout */
+  }
+
+  .contactInfo p {
+    font-size: 0.85rem; /* Further reduced font size */
+  }
+
+  .submitButton {
+    font-size: 0.9rem; /* Adjusted font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin-top: 40px; /* Further reduced top margin for smaller screens */
+  }
+
+  .heading {
+    font-size: 1.5rem; /* Smaller heading for narrow screens */
+  }
+
+  .description {
+    font-size: 0.9rem; /* Compact text size */
+  }
+
+  .contactInfo p {
+    font-size: 0.8rem; /* Smaller font for extra small screens */
+  }
+
+  .submitButton {
+    font-size: 0.85rem; /* Compact button text */
+    padding: 10px; /* Adjusted padding for smaller buttons */
+  }
+
+  .whatsappButton img {
+    width: 40px; /* Smaller WhatsApp icon */
+    height: 40px;
+  }
+}
