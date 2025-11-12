@@ -9,7 +9,7 @@ import Solution from './components/Pages/Solution';
 import Contactus from './components/Pages/Contactus';
 import Internship from './components/Pages/Internship';
 import InplantTraining from './components/Pages/Inplant_training';
-import VirtualTraining from './components/Pages/Virtualtraining';
+import VirtualTraining from './components/Pages/VirtualTraining';
 import Mentorship from './components/Pages/Mentorship';
 import Careers from './components/Pages/Careers';
 import Franchise from './components/Pages/Franchise';

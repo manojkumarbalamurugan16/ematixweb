@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from './VirtualTraining.module.css';
+import styles from "./VirtualTraining.module.css";
+
 
 const VirtualTraining = () => {
   const googleFormLink = 'https://forms.gle/ZBWLLmCEtgGxBvMd6';
