@@ -1,7 +1,7 @@
 import embeddedimg from "./Course images/embedded course.png";
 import iotimg from "./Course images/IOT course.png";
-import pcbdesignimg from "./Course images/PCB design course.png";
-import webcourseimg from "./Course images/WEB DEVELOPMENT course.png";
+import pcbdesignimg from "./Course images/PCB design Course.png";
+import webcourseimg from "./Course images/WEB DEVELOPMENT Course.png";
 
 const courses = [
   {
