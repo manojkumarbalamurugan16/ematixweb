@@ -13,7 +13,7 @@ import VirtualTraining from './components/Pages/Virtualtraining';
 import Mentorship from './components/Pages/Mentorship';
 import Careers from './components/Pages/Careers';
 import Franchise from './components/Pages/Franchise';
-import ApplicationForm from './components/Pages/Applicationform';
+import ApplicationForm from './components/Pages/ApplicationForm';
 import CampusAmbassador from './components/Pages/CampusAmbassador';
 import Support from './components/Pages/Support';
 import Campus from './components/Pages/Campus';
